@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <title>Exercise 15</title>
+</head>
+
+<body style="position: relative;">
+  <img src="cats.jpg" alt="Cat Image" style="position: absolute; top: 10px; right: 10px; width: 400px; height: auto;">
+
+    <h3>Welcome to our purrfect online store dedicated to your feline friends!</h3>
+    <button class="hidden-button"
+          onclick="window.location.href='aboutme.html';">
+        </button>
+    <br>Explore a wide array of toys, accessories, and essentials designed to keep your kitties happy and entertained.</br>
+    <br>Start pampering your cats with our paws-itively amazing collection!</br>
+    <br>To make a purchase, registration is required, which can be completed by filling out the following fields:</br>
+    <h3>Register</h3>
+    <p>Please fill out the form</p>
+
+    <form action="">
+        <fieldset>
+            <label for="">Name:</label>
+            <input type="text">
+            <label for="">Password:</label>
+            <input type="password">
+            <label for="">Age:</label>
+            <input type=”number”>
+            <label>Gender:</label>
+            <select>
+              <option value="egy">Male</option>
+              <option value="ketto">Female</option>
+            </select>
+        </fieldset>
+      </form>
+
+        <button class="registration-button"
+          onclick="window.location.href='confirm.html';">Registrate
+        </button>
+
+        <style>
+          
+          .registration-button {
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 10px 20px;
+          }
+          .registration-button:hover {
+            background-color: royalblue;
+            color: white;
+          }
+          table {
+          border: 2px solid black;
+          border-collapse: collapse;
+          border-spacing: 10px;
+          }
+          table td {
+          border: 1px solid black;
+          padding: 8px;
+          }
+        </style>
+
+        <div style="margin-top: 20px;">
+          <table>
+            <tr>
+              <td colspan="2">Shipping fees:</td>
+            </tr>
+            <tr>
+              <td>Above 50 EUR:</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td>Below 50 EUR:</td>
+              <td>15 EUR</td>
+            </tr>
+
+        </table>
+        </div>
+    
+</body>
